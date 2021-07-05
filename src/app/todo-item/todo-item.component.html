@@ -1,0 +1,8 @@
+
+<div style="position: relative;">
+  <li
+    (click)="selectItem()" [ngClass]="{'checked': checked}"
+    >{{name}}</li>
+ <span class="close" (click)="deleteElement(element)">x</span>
+</div>
+
